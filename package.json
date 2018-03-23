@@ -1,0 +1,31 @@
+{
+  "name": "dnpluralize",
+  "version": "1.0.1",
+  "description": "test package for pluralize words",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cryp4onic/mypluralize.git"
+  },
+  "keywords": [],
+  "author": "crypt4onic",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cryp4onic/mypluralize/issues"
+  },
+  "homepage": "https://github.com/cryp4onic/mypluralize#readme",
+  "devDependencies": {
+    "@types/pluralize": "0.0.28",
+    "chai": "^4.1.2",
+    "mocha": "^5.0.5",
+    "typescript": "^2.7.2"
+  },
+  "dependencies": {
+    "pluralize": "^7.0.0"
+  }
+}
